@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:           procs
-Version:        0.12.2
+Version:        0.12.3
 Release:        1%{?dist}
 Summary:        A modern replacement for ps written in Rust 
 Group:          Applications/System
@@ -45,6 +45,9 @@ rm -rf %{buildroot}
 /usr/bin/procs
 
 %changelog
+* Wed May 25 2022 Jamie Curnow <jc@jc21.com> - 0.12.3-1
+- https://github.com/dalance/procs/releases/tag/v0.12.3
+
 * Thu May 5 2022 Jamie Curnow <jc@jc21.com> - 0.12.2-1
 - https://github.com/dalance/procs/releases/tag/v0.12.2
 
