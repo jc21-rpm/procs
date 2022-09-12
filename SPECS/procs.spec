@@ -2,8 +2,8 @@
 
 Name:           procs
 Version:        0.13.0
-Release:        1%{?dist}
-Summary:        A modern replacement for ps written in Rust 
+Release:        1
+Summary:        A modern replacement for ps written in Rust
 Group:          Applications/System
 License:        GPLv2
 URL:            https://github.com/dalance/%{name}
